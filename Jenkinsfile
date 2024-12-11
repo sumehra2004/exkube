@@ -6,9 +6,9 @@ pipeline {
             steps {
                 script {
                     // Build and push Docker image
-                    bat 'docker build -t ex:latest .'
-                    bat 'docker tag ex:latest sumehra2004/ex:latest'
-                    bat 'docker push sumehra2004/ex:latest'
+                    bat 'docker build -t ex1:latest .'
+                    bat 'docker tag ex1:latest sumehra2004/ex1:latest'
+                    bat 'docker push sumehra2004/ex1:latest'
                 }
             }
         }
